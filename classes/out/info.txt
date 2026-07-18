@@ -1,0 +1,11 @@
+The object and exec files must be here. So, in the classes folder, runs the command to generate the object from the source code:
+
+nasm -f elf -o out/my_obj_file_name.o out/selected_source_code_name.asm
+
+and
+
+ld -m elf_i386 -o out/my_exec_file_name out/my_obj_file_name.o
+
+and then, runs the executable file
+
+./my_exec_file_name

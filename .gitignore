@@ -1,0 +1,4 @@
+# object files
+classes/out/*
+!classes/out/info.txt
+*.o
