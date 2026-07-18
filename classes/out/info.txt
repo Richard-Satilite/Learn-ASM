@@ -8,4 +8,8 @@ ld -m elf_i386 -o out/my_exec_file_name out/my_obj_file_name.o
 
 and then, runs the executable file
 
+./out/my_exec_file_name
+
+or, inside the out folder
+
 ./my_exec_file_name
