@@ -1,6 +1,6 @@
 The object and exec files must be here. So, in the classes folder, runs the command to generate the object from the source code:
 
-nasm -f elf -o out/my_obj_file_name.o out/selected_source_code_name.asm
+nasm -f elf -o out/my_obj_file_name.o selected_source_code_name.asm
 
 and
 
